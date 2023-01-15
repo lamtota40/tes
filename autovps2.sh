@@ -17,4 +17,4 @@ sudo update-grub
 echo "====selesai====="
 sudo reboot
 ## END OF SCRIPT #############################################
-####################
+
