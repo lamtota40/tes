@@ -16,3 +16,5 @@ sudo apt install grub-customizer -y
 sudo update-grub
 echo "====selesai====="
 sudo reboot
+## END OF SCRIPT #############################################
+####################
