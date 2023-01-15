@@ -1,6 +1,7 @@
 # Requirements
 - GRUB2 bootloader
 - Operating system variant (Ubuntu or Debian)
+- Minimum Ram 1.5GB for GRML version Full
 # Auto instal vps
 
 ```console  
