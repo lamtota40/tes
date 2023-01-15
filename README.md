@@ -6,11 +6,11 @@ Version Script 1.0 (15/01/2023)
 - Minimum spesication if store all OS and runing to Ram:
     + 1.5GB Ram for GRML version Full (Dekstop & CLI)
     + 1 GB Ram for GRML version lite (No Desktop/Only CLI)
- - Minimum spesication if store all OS and runing to Ram:
-    + 1.5GB Ram for GRML version Full (Dekstop & CLI)
-    + 1 GB Ram for GRML version lite (No Desktop/Only CLI)
+ - Minimum spesication if NOT store all OS to Ram:
+    + 300 Mb Ram for GRML version Full (Dekstop & CLI)
+    + 200 Mb Ram for GRML version lite (No Desktop/Only CLI)
  
-      if use 32bit only read Ram max 3 GB
+    => if use 32bit only read Ram max 3 GB
 
 # Auto instal vps
 
