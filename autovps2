@@ -1,0 +1,15 @@
+#!/bin/bash
+
+echo "memulai"
+sudo apt update
+sudo apt-get install lubuntu-core --no-install-recommends -y
+sudo systemctl set-default graphical.target
+sudo apt install gparted -y
+sudo apt-get install grml-rescueboot
+cd /boot/grml
+sudo wget download.grml.org/grml64-full_2022.11.iso
+cd
+sudo add-apt-repository ppa:danielrichter2007/grub-customizer
+sudo apt update
+sudo apt install grub-customizer -y
+echo "====selesai====="
