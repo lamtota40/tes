@@ -17,6 +17,6 @@ Password default = ```pas123```
 - VNC port 5900
 
 # GRML package
-- Gparted
-- clonezilla (for clone,backup & restore OS)
+- Gparted (For resize,create,delete patition)
+- clonezilla (For clone,backup & restore OS)
 - other
