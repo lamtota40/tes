@@ -4,10 +4,10 @@ Version Script 1.0 (15/01/2023)
 - GRUB2 bootloader
 - Operating system variant (Ubuntu or Debian) / Tested Ubuntu 18.04 (Bionic Beaver)
 - Minimum spesication if runing all OS to Ram:
-- 1.5GB Ram for GRML version Full (Dekstop & CLI)
-- 1 GB Ram for GRML version lite (No Desktop/Only CLI)
+    + 1.5GB Ram for GRML version Full (Dekstop & CLI)
+    + 1 GB Ram for GRML version lite (No Desktop/Only CLI)
  
-if use 32bit only read Ram max 3 GB
+      if use 32bit only read Ram max 3 GB
 
 # Auto instal vps
 
