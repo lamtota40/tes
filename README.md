@@ -11,5 +11,5 @@ curl -sLkO https://raw.githubusercontent.com/lamtota40/tes/main/autovps2.sh ; ba
  ```
 # VNC / SSH
 Password default = ```pas123```
-- SSH port 22
+- SSH port 22 (with user ```root```)
 - VNC port 5900
