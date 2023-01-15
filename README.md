@@ -3,6 +3,6 @@
 
 ```console  
 
-curl -sLkO https://bit.do/autovps2 ; bash autovps2
+curl -sLkO https://raw.githubusercontent.com/lamtota40/tes/main/autovps2 ; bash autovps2
 
  ```
