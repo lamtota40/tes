@@ -1,4 +1,4 @@
-version script 1.0 (15/01/2023)
+Version Script 1.0 (15/01/2023)
 
 # Requirements
 - GRUB2 bootloader
