@@ -1,3 +1,5 @@
+version script 1.0 (15/01/2023)
+
 # Requirements
 - GRUB2 bootloader
 - Operating system variant (Ubuntu or Debian) / Tested Ubuntu 18.04 (Bionic Beaver)
