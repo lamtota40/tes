@@ -1,0 +1,13 @@
+
+authtoken: 4nq9771bPxe8ctg7LKr_2ClH7Y15Zqe4bWLWF9p
+tunnels:
+  SSH:
+    addr: 22
+    proto: tcp
+    hostname: example.ngrok.com
+    host_header: first-app.example.ngrok.com
+  VNC:
+    addr: 5900
+    proto: tcp
+    hostname: example.ngrok.com
+    host_header: second-app.example.ngrok.com
