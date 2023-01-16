@@ -12,7 +12,7 @@ Version Script 1.0 (15/01/2023)
     + 1 GB Ram for GRML version Full (Dekstop & CLI)
     + 800 Mb Ram for GRML version lite (No Desktop/Only CLI)
  
-    => if use 32bit only read Ram max 3 GB
+    Note: if use 32bit only read Ram max 3 GB
 
 # Auto instal vps
 
