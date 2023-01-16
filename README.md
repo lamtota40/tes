@@ -1,6 +1,7 @@
 Version Script 1.0 (15/01/2023)
 
 # Requirements
+- 32bit PC (amd64) or 64bit PC (i686+)
 - GRUB2 bootloader
 - Operating system variant Ubuntu or Debian / Tested Ubuntu 18.04 (Bionic Beaver)
 - Hardisk minimum 5 GB
