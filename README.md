@@ -4,7 +4,7 @@ Version Script 1.0 (15/01/2023)
 - 64bit PC (amd64) or 32bit PC (i686+)
 - GRUB2 bootloader
 - Operating system variant Ubuntu or Debian / Tested Ubuntu 18.04 (Bionic Beaver)
-- Hardisk minimum 5 GB
+- Hardisk minimum 5 GB free
 - Minimum Ram spesication, if store all OS live CD GRML and runing to Ram (32bit/64bit):
     + 1.8 GB Ram for GRML version Full (Dekstop & CLI)
     + 1.3 GB Ram for GRML version lite (No Desktop/Only CLI)
