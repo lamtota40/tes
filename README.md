@@ -5,8 +5,8 @@ Version Script 1.0 (15/01/2023)
 - Operating system variant Ubuntu or Debian / Tested Ubuntu 18.04 (Bionic Beaver)
 - Hardisk minimum 5 GB
 - Minimum Ram spesication, if store all OS and runing to Ram (32bit/64bit):
-    + 1.5 GB Ram for GRML version Full (Dekstop & CLI)
-    + 1 GB Ram for GRML version lite (No Desktop/Only CLI)
+    + 1.8 GB Ram for GRML version Full (Dekstop & CLI)
+    + 1.3 GB Ram for GRML version lite (No Desktop/Only CLI)
  - Minimum Ram spesication, if NOT store all OS to Ram (32bit/64bit):
     + 1 GB Ram for GRML version Full (Dekstop & CLI)
     + 800 Mb Ram for GRML version lite (No Desktop/Only CLI)
