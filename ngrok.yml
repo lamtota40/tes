@@ -1,5 +1,4 @@
-
-authtoken: 4nq9771bPxe8ctg7LKr_2ClH7Y15Zqe4bWLWF9p
+authtoken:
 tunnels:
   SSH:
     addr: 22
