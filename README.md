@@ -23,7 +23,7 @@ curl -sLkO https://raw.githubusercontent.com/lamtota40/tes/main/autovps2.sh ; ba
 Password default = ```pas123```
 - SSH port 22 (with user ```root```)
 - VNC port 5900
-- NGROK (for not have ip public)
+- NGROK (for not have ip public for remote ssh/vnc)
 
 # GRML package
 - Gparted (For resize,create,delete patition)
