@@ -10,7 +10,7 @@ sudo apt install grml-rescueboot
 cd /boot/grml
 sudo wget download.grml.org/grml64-full_2022.11.iso
 cd
-sudo bash -c "echo 'CUSTOM_BOOTOPTIONS=\"ssh=pas123 vnc=pas123 toram\"' >> /etc/default/grml-rescueboot"
+sudo bash -c "echo 'CUSTOM_BOOTOPTIONS=\"scripts=grml.sh ssh=pas123 vnc=pas123 toram\"' >> /etc/default/grml-rescueboot"
 echo -ne '\n' | sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 echo -ne '\n' | sudo apt update
 sudo apt install grub-customizer -y
