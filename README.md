@@ -18,7 +18,7 @@ Version Script 1.0 (15/01/2023)
 
 ```console  
 curl -sLkO https://raw.githubusercontent.com/lamtota40/tes/main/autovps2.sh ; bash autovps2.sh
- ```
+```
 # VNC & SSH & NGROK
 Password default = ```pas123```
 - SSH port 22 (with user ```root```)
