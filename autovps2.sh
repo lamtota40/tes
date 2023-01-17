@@ -14,7 +14,7 @@ mkdir /etc/grml/partconf
 cd /etc/grml/partconf
 sudo wget https://raw.githubusercontent.com/lamtota40/tes/main/setup-ngrok.sh
 cd
-sudo bash -c "echo 'CUSTOM_BOOTOPTIONS=\"ssh=pas123 vnc=pas123 netscript=raw.githubusercontent.com/lamtota40/tes/main/setup-ngrok.sh startx=windowmanager toram\"' >> /etc/default/grml-rescueboot"
+sudo bash -c "echo 'CUSTOM_BOOTOPTIONS=\"ssh=pas123 vnc=pas123 netscript=raw.githubusercontent.com/lamtota40/tes/main/setup-ngrok.sh startx toram\"' >> /etc/default/grml-rescueboot"
 echo -ne '\n' | sudo add-apt-repository ppa:danielrichter2007/grub-customizer
 echo -ne '\n' | sudo apt update
 sudo apt install grub-customizer -y
