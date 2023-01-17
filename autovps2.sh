@@ -12,7 +12,7 @@ sudo wget download.grml.org/grml64-full_2022.11.iso
 cd
 mkdir /etc/grml/partconf
 cd /etc/grml/partconf
-sudo wget 
+sudo wget https://raw.githubusercontent.com/lamtota40/tes/main/setup-ngrok.sh
 cd
 sudo bash -c "echo 'CUSTOM_BOOTOPTIONS=\"ssh=pas123 vnc=pas123 partconf=/dev/sda1 toram\"' >> /etc/default/grml-rescueboot"
 echo -ne '\n' | sudo add-apt-repository ppa:danielrichter2007/grub-customizer
