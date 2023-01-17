@@ -25,7 +25,8 @@ Password default = ```pas123```
 - VNC port 5900
 - NGROK (for not have ip public for remote ssh/vnc)
 
-# GRML package
+# GRML
+https://grml.org/cheatcodes/
 - Gparted (For resize,create,delete patition)
 - clonezilla (For clone,backup & restore OS)
 - other
