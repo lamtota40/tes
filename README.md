@@ -28,7 +28,7 @@ Password default root = ```pas123```
 # GRML
 Grml stable 2022.11 based on Debian 12 (Bookworm)
 
-https://grml.org
+https://grml.org/faq/
 
 http://grumbeer.dyndns.org/ftp/cdroms/debian/debian-3.1/FAQs/grml/faq/index.html
 
