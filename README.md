@@ -29,4 +29,5 @@ Password default = ```pas123```
 https://grml.org/cheatcodes/
 - Gparted (For resize,create,delete patition)
 - clonezilla (For clone,backup & restore OS)
+- speedtest-cli
 - other
