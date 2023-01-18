@@ -14,7 +14,7 @@ Version Script 1.0 (15/01/2023)
  
     Note: if use 32bit only read Ram max 3 GB
 
-# Auto instal vps
+# Auto instal
 
 ```console  
 curl -sLkO https://raw.githubusercontent.com/lamtota40/tes/main/autovps2.sh ; bash autovps2.sh
