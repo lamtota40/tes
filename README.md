@@ -27,6 +27,7 @@ Password default root = ```pas123```
 
 # GRML
 Grml stable 2022.11 based on Debian 12(Bookworm)
+
 https://grml.org
 https://wiki.grml.org/doku.php
 - gparted (For resize,create,delete patition)
