@@ -31,5 +31,6 @@ https://wiki.grml.org/doku.php
 - gparted (For resize,create,delete patition)
 - clonezilla (For clone,backup & restore OS)
 - firefox (for web browsing)
+- xterm (command terminal)
 - speedtest-cli
 - other
