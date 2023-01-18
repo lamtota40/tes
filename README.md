@@ -30,6 +30,8 @@ Grml stable 2022.11 based on Debian 12 (Bookworm)
 
 https://grml.org/faq/
 
+http://archive.grml.org/ (for download old version)
+
 http://grumbeer.dyndns.org/ftp/cdroms/debian/debian-3.1/FAQs/grml/faq/index.html
 
 https://wiki.grml.org/doku.php
