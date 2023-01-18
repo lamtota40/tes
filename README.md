@@ -28,7 +28,7 @@ Password default root = ```pas123```
 # GRML
 https://grml.org
 https://wiki.grml.org/doku.php
-- Gparted (For resize,create,delete patition)
+- gparted (For resize,create,delete patition)
 - clonezilla (For clone,backup & restore OS)
 - speedtest-cli
 - other
