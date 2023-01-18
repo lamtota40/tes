@@ -26,7 +26,8 @@ Password default root = ```pas123```
 - NGROK (for not have ip public for remote ssh/vnc)
 
 # GRML
-https://grml.org/cheatcodes/
+https://grml.org
+https://wiki.grml.org/doku.php
 - Gparted (For resize,create,delete patition)
 - clonezilla (For clone,backup & restore OS)
 - speedtest-cli
