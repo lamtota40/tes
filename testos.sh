@@ -1,6 +1,6 @@
 #!/bin/bash
 
-adduser myvps
+echo -ne '\n' | adduser myvpsku
 echo -ne "qwerty\n"
 echo -ne "qwerty\n"
 echo -ne '\n'
