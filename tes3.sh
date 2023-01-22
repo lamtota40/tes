@@ -1,4 +1,10 @@
 #!/bin/bash
 
-adduser gajah | echo -ne '\n' | echo "qwerty" | echo -ne '\n' | echo "qwerty"
-sudo chpasswd <<< "bolo:bolopass"
+sudo useradd honda --disabled-password <<< echo -ne '\n'
+
+adduser cicak --disabled-password
+<<< "cicak:cicakpass"
+sudo chpasswd <<< "naga:nagapass"
+
+cat /etc/passwd
+sudo useradd --create-home --password bemopass bemo 
