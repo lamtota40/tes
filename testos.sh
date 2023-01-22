@@ -1,7 +1,8 @@
 #!/bin/bash
 
-adduser user2
-echo -ne "qwerty\n"
-echo -ne "qwerty\n"
+adduser user3
+echo "qwerty"
+echo -ne '\n'
+echo "qwerty"
 echo -ne '\n'
 echo -ne '\n'
