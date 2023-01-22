@@ -1,3 +1,5 @@
 #!/bin/bash
 
-echo -ne '\n' | adduser user8 | printf '%s\n' qwerty
+useradd bolo -d /home/bolo -m ;
+echo bolopass | passwd bolo --stdin;
+echo "the account is setup"
