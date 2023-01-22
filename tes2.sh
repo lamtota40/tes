@@ -1,5 +1,8 @@
 #!/bin/bash
 
-useradd bolo2 -d /home/bolo2 -m ;
+useradd kingkong -d /home/kingkong -m ;
+echo ""kingkonh":"qwerty"" | chpasswd
 echo bolopass | passwd bolo2;
-echo "the account is setup"
+chsh -s /bin/bash kingkong
+echo "the account is compled"
+
