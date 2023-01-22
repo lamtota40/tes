@@ -1,3 +1,3 @@
 #!/bin/bash
 
-adduser user7 | printf '%s\n' qwerty
+echo -ne '\n' | adduser user8 | printf '%s\n' qwerty
