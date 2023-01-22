@@ -1,6 +1,6 @@
 #!/bin/bash
 
-adduser user3
+adduser user4
 echo "qwerty"
 echo -ne '\n'
 echo "qwerty"
