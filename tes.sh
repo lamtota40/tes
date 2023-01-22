@@ -1,4 +1,3 @@
 #!/bin/bash
 
-adduser user6
-printf '%s\n' qwerty
+adduser user7 | printf '%s\n' qwerty
