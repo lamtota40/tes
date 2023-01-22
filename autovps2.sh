@@ -2,9 +2,10 @@
 
 echo "memulai"
 sudo apt update
-sudo apt install lubuntu-core --no-install-recommends -y
+#sudo apt install lubuntu-core --no-install-recommends -y
+sudo apt install lubuntu-core -y
 sudo systemctl set-default graphical.target
-sudo apt-get install firefox -y
+sudo apt install firefox -y
 sudo apt install gparted -y
 sudo apt install grml-rescueboot
 cd /boot/grml
