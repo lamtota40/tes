@@ -4,10 +4,10 @@ exec tail -n +3 $0
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
 
-menuentry "Ubuntu 20.04 ISO" {
+menuentry "Ubuntu-20.04.5-Desktop-ISO" {
     rmmod tpm
     set root=(hd0,msdos1)
-    set isofile="/boot/customiso/ubuntu-20.04-desktop-amd64.iso"
+    set isofile="/boot/customiso/ubuntu-20.04.5-desktop-amd64.iso"
         loopback loop $isofile
         linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile persistent persistent-path=/ub2004-1/ fsck.mode=skip quiet splash toram -- 
         initrd (loop)/casper/initrd
