@@ -10,3 +10,12 @@ menuentry "debian-10.13.0-i386-netinst.iso"{
 	linux (loop)/casper/vmlinuz boot=live iso-scan/filename=$isofile quiet noeject noprompt splash
 	initrd (loop)/casper/initrd
 }
+
+menuentry "Ubuntu Mini CD" {
+	insmod ext2
+	set isofile="/boot/customiso/mini.iso"
+	set gfxpayload=keep
+	loopback loop (hd0,msdos1)$isofile
+	linux	(loop)/linux toram ---
+	initrd	(loop)/initrd.gz
+}
