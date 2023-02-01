@@ -3,10 +3,10 @@ exec tail -n +3 $0
 # This file provides an easy way to add custom menu entries.  Simply type the
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
-menuentry "lubuntu-18.04.5-desktop-i386.iso"{
+menuentry "debian-10.13.0-i386-netinst.iso"{
 	insmod ext2
-	set isofile="/boot/customiso/lubuntu-18.04.5-desktop-i386.iso"
+	set isofile="/boot/customiso/debian-10.13.0-i386-netinst.iso"
 	loopback loop (hd0,msdos1)$isofile
-	linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile quiet noeject noprompt splash
+	linux (loop)/casper/vmlinuz boot=live iso-scan/filename=$isofile quiet noeject noprompt splash
 	initrd (loop)/casper/initrd
 }
