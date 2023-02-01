@@ -3,19 +3,12 @@ exec tail -n +3 $0
 # This file provides an easy way to add custom menu entries.  Simply type the
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
-menuentry "debian-10.13.0-i386-netinst.iso"{
-	insmod ext2
-	set isofile="/boot/customiso/debian-10.13.0-i386-netinst.iso"
-	loopback loop (hd0,msdos1)$isofile
-	linux (loop)/casper/vmlinuz boot=live iso-scan/filename=$isofile quiet noeject noprompt splash
-	initrd (loop)/casper/initrd
-}
 
-menuentry "Ubuntu Mini CD" {
-	insmod ext2
-	set isofile="/boot/customiso/mini.iso"
-	set gfxpayload=keep
-	loopback loop (hd0,msdos1)$isofile
-	linux	(loop)/linux toram ---
-	initrd	(loop)/initrd.gz
+menuentry "Ubuntu 20.04 ISO" {
+    rmmod tpm
+    set root=(hd0,msdos1)
+    set isofile="/boot/customiso/ubuntu-20.04-desktop-amd64.iso"
+        loopback loop $isofile
+        linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile persistent persistent-path=/ub2004-1/ fsck.mode=skip quiet splash toram -- 
+        initrd (loop)/casper/initrd
 }
