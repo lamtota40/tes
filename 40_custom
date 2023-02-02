@@ -4,7 +4,7 @@ exec tail -n +3 $0
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
 
-menuentry "debian-live-10.13.0-i386-standard.iso" {
+menuentry "testeddebian-live-10.13.0-i386-standard.iso" {
     insmod ext2
   set isofile="/boot/customiso/debian-live-10.13.0-i386-standard.iso"
   loopback loop (hd0,msdos1)$isofile
