@@ -8,6 +8,6 @@ menuentry "debian-live-10.13.0-i386-lxde.iso" {
   insmod ext2
   set isofile="/boot/customiso/debian-live-10.13.0-i386-lxde.iso"
   loopback loop (hd0,msdos1)$isofile
-  linux (loop)/live/vmlinuz-4.19.0-21-686 findiso=$isofile boot=live toram --
+  linux (loop)/live/vmlinuz-4.19.0-21-686 boot=live findiso=$isofile
   initrd (loop)/live/initrd.img-4.19.0-21-686
 }
