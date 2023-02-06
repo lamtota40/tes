@@ -6,7 +6,7 @@ exec tail -n +3 $0
 
 menuentry "winxp" {
   insmod ntldr
-  set root=(hdx,msdos3)
+  set root=(hd0,msdos3)
   ntldr /RUFUSLDR
   boot
 }
