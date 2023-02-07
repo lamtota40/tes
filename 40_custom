@@ -4,9 +4,10 @@ exec tail -n +3 $0
 # menu entries you want to add after this comment.  Be careful not to change
 # the 'exec tail' line above.
 
-menuentry "winxp" {
-  insmod ntldr
-  set root=(hd0,msdos3)
-  ntldr /RUFUSLDR
-  boot
+menuentry "ubuntu-20.04.5-live-server-amd64.iso" {
+insmod ext2
+  set isofile="/boot/customiso/Downloads/ubuntu-20.04.5-live-server-amd64.iso"
+  loopback loop (hd0,msdos1)$isofile
+  linux (loop)/casper/vmlinuz boot=casper iso-scan/filename=$isofile quiet noeject noprompt splash
+  initrd (loop)/casper/initrd
 }
